@@ -6,6 +6,9 @@
 body{
     font-family:cursive;
 }
+
+
+/*main wrapper*/
 .wraper{
     width: 50%;
     margin: 3% auto;
@@ -14,9 +17,10 @@ body{
 
 }
 
+
 .branding{
     background: #39dbc6;
-    padding: 40px;
+    padding: 30px;
     
     display: flex;
     justify-content: space-around;
@@ -42,6 +46,8 @@ body{
 .right img{
     max-width: 100%;
 }
+
+/*menu contents holder*/
 .content{
     
    
@@ -53,7 +59,7 @@ body{
     display: table;
     border-spacing: 2px;
     width: 50%;
-    padding:30px;
+    padding:30px 30px 15px 30px;
 }
 .content table th{
     background: #39dbc6;
@@ -71,6 +77,9 @@ body{
     text-align:end;
 }
 
+
+/*for styling*/
+
 .hr1{
     height: 3px;
     border: none;
@@ -81,4 +90,12 @@ body{
     height: 10px;
     border: none;
     background: #39dbc6;
+}
+a{
+    text-decoration: none;
+    color: rgb(143, 16, 16);
+    font-size: 16px;
+}
+a:hover{
+    color: rgb(19, 19, 124);
 }
